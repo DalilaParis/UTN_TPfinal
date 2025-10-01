@@ -1,5 +1,5 @@
 import React from 'react'
-import Message from '../Message/Message.jsx'
+import Message from '../MessageProp/Message.js'
 import './messagesList.css'
 
 const MessagesList = (props) => {
