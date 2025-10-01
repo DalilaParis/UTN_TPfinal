@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import MessagesList from '../../Components/MessagesList/MessagesList'
 import NewMessageForm from '../../Components/NewMessageForm/NewMessageForm'
-import Navbar from '../../Components/Navbar/Navbar'
 import { useParams } from 'react-router'
 import { getContactById } from '../../services/contactService'
 import ContactList from '../../Components/ContactList/ContactList'
