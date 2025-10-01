@@ -1,0 +1,27 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-pic_image{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+
+.contact-info_name{
+    font-size: 16px;
+}
+
+.contact-info_online{
+    font-size: 14px;
+}
