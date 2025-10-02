@@ -1,15 +1,13 @@
 
 import React from 'react'
 import ContactList from '../../Components/ContactList/ContactList'
+import "./HomeScreen.css"
 
 const HomeScreen = () => {
   return (
     <div>
-        <div className='contact-list'>
+        <div class='contact-list'>
             <ContactList/>
-        </div>
-        <div>
-            <span>Aun no has seleccionado ningun contacto</span>
         </div>
     </div>
   )

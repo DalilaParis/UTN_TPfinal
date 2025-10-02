@@ -10,7 +10,7 @@ import Navbar from './Components/Navbar/Navbar'
 function App() {
  
   return (
-    <div>
+    <div class="container-all">
       <Navbar/>
       <ContactListContextProvider>
         <Routes>

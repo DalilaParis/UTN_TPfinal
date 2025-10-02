@@ -42,36 +42,3 @@ function MessageScreen() {
 }
 
 export default MessageScreen
-
-
-/* 
- const [isSelect, setIsSelect] = useState(false)
-
-    Cada vez que cambie el id_contacto, buscar el contacto por id
-    useEffect nos permite controlar las recargas de una funcion
-   
-    useEffect(
-        //Efecto, ACCION A REALIZAR
-        //Cuando se cargue el componente el efecto se ejecutara 1 VEZ
-        //SI ALGUN VALOR DE DEPENDENCIA CAMBIA, EL EFECTO SE RE-EJECUTARA
-        () => {
-            console.log("Cambio el isSelect")
-        },
-        //Dependencias, que valor estaremos observando para cargar el efecto
-        [isSelect]
-    )
-
-     <button
-                onClick={
-                    () => {
-                        setIsSelect(!isSelect)
-                    }
-                }
-            >
-                {
-                    isSelect
-                    ? 'Seleccionado'
-                    : 'Seleccionar'
-                }
-            </button>
-*/

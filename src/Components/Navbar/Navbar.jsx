@@ -7,13 +7,12 @@ const Navbar = () => {
         setIsOpen(!is_open)
     }
   return (
-    <header>
-        <h2>Mi tienda</h2>
-        <nav className='nav-desktop'>
-            <a href="">Link 1</a>
-            <a href="">Link 2</a>
-            <a href="">Link 3</a>
-            <a href="">Link 4</a>
+    <header class='nav-wsp'>
+        <nav className='nav-wsp_desktop'>
+            <a href=""><i class="bi bi-chat-left-text-fill"></i></a>
+            <a href=""><i class="bi bi-opencollective"></i></a>
+            <a href=""><i class="bi bi-chat-dots"></i></a>
+            <a href=""><i class="bi bi-people"></i></a>
         </nav>
         <button 
             className='btn-menu' 
@@ -22,13 +21,17 @@ const Navbar = () => {
 
         {
             is_open &&
-            <nav className='nav-mobible'>
+            <nav className='nav-wsp_mobible'>
                 <a href="">Link 1</a>
                 <a href="">Link 2</a>
                 <a href="">Link 3</a>
                 <a href="">Link 4</a>
             </nav>
         }
+        <div class="user-interface">
+            <a href=""><i class="bi bi-gear"></i></a>
+            <a href=""><img src="https://i.pinimg.com/736x/67/0e/1f/670e1fc607d825c1a783f4308043be28.jpg" class="user-pfp"/></a>
+        </div>
     </header>
   )
 }
