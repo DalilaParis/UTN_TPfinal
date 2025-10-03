@@ -5,7 +5,7 @@ import "./HomeScreen.css"
 
 const HomeScreen = () => {
   return (
-    <div>
+    <div class="container-list">
         <div class='contact-list'>
             <ContactList/>
         </div>

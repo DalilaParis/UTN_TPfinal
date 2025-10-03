@@ -6,14 +6,15 @@
 }
 
 .message-screen__contact-list-container{
-    width: 350px;
+    width: 30%;
     height: 100%;
+    border-right: 1px solid rgb(51, 54, 54);
 }
 .message-screen__messages-container{
-    width: 100%;
-    height: 100%;
+    width: 100vh;
+    height: 100vh;
     display: flex;
-    position: relative;
+    justify-content: center;
     padding-bottom: 100px;
 
 }
@@ -21,4 +22,5 @@
     position: absolute;
     bottom: 0;
     height: 100px;
+    width: 60%;
 }
