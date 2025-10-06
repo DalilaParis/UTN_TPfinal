@@ -22,12 +22,6 @@ const contacts = [
             {
                 id: 2,
                 author: 'Sans',
-                content: "Soy trans",
-                timestamp: '17:23'
-            },
-            {
-                id: 2,
-                author: 'Sans',
                 content: "Sans",
                 timestamp: '17:24'
             },

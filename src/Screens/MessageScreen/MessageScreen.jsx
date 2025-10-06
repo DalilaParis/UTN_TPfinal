@@ -6,6 +6,7 @@ import { getContactById } from '../../services/contactService'
 import ContactList from '../../Components/ContactList/ContactList'
 import './messageScreen.css'
 import { ContactDetailContext } from '../../Context/ContactDetailContext'
+import HeaderMessage from '../../Components/Header/HeaderMessage'
 
 function MessageScreen() {
     
@@ -16,12 +17,17 @@ function MessageScreen() {
     return (
         <div className='message-screen'>
             <div className='message-screen__contact-list-container'>
+                <HeaderMessage/>
                 <ContactList/>
             </div>
             <div className='message-screen__messages-container'>
                 {
                     isContactDetailLoading 
-                    ? <span>cargando...</span>
+                    ? <div id="startup">
+                        <svg class="spinner-container" width="65px" height="65px" viewBox="0 0 52 52">
+                            <circle class="path" cx="26px" cy="26px" r="20px" fill="none" stroke-width="4px" />
+                        </svg>
+                    </div>
                     : (
                         contactDetailed 
                         ? <MessagesList 
