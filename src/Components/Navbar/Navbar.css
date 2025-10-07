@@ -60,23 +60,3 @@ header .nav-wsp_desktop a{
     color: white;
 }
 
-@media screen and (max-width: 900px) {
-    header .nav-wsp_desktop{
-        display: none;
-    }
-    .nav-wsp_mobible{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        gap: 16px;
-        padding: 32px;
-        width: 100vw;
-        position: absolute;
-        top: 70px;
-        background-color: white;
-    }
-    .btn-menu{
-        display: flex;
-        margin-right: 32px;
-    }
-}
