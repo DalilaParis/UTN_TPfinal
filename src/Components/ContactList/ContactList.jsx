@@ -5,7 +5,6 @@ import { ContactListContext } from '../../Context/ContactListContext'
 import "./ContactList.css"
 
 const ContactList = () => {
-    //useContext es un hook nativo de react que me permite consumir contextos
     const { contactList, isContactListLoading } = useContext(ContactListContext)
 
     return (

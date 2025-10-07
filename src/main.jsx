@@ -6,7 +6,6 @@ import { BrowserRouter } from 'react-router'
 createRoot(
 	document.getElementById('root')
 ).render(
-	/* Indica que vamos a usar react-router en el componente App */
 	<BrowserRouter>
 		<App />
 	</BrowserRouter>

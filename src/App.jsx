@@ -38,15 +38,6 @@ export default App
 
 function Button (props){
   return (
-    /* Children es una prop reservada que es el contenido hijo del button */
     <button>{props.children}</button>
   )
 }
-
-/* EJEMPLO DE USO */
-
-/* 
-<Button >
-  <span>Button 😎</span>
-</Button>
-*/

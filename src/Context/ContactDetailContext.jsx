@@ -18,7 +18,6 @@ const ContactDetailContextProvider = (props) => {
 
     function loadContactById (contact_id){
         setIsContactDetailLoading(true)
-        //Ejecutamos una accion luego de 2 seg
         setTimeout(
             () => {
                 const contact = getContactById(contact_id)
@@ -58,7 +57,7 @@ const ContactDetailContextProvider = (props) => {
                 }
             }
         >
-            {/* Mostrar el contenido de la ruta */}
+            {}
             <Outlet/>
         </ContactDetailContext.Provider>
     )
