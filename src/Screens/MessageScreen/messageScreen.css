@@ -130,8 +130,15 @@
 @media (max-width: 750px){
   .mobile-goback{
     display: block;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
   }
   
+  .message-screen__messages-container{
+    flex-direction: column;
+  }
+
   .message-screen__contact-list-container{
     display: none;
   }
