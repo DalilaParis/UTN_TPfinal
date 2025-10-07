@@ -6,7 +6,6 @@
     background-color: rgb(22, 23, 23);
     color: white;
     width: 100%;
-    justify-content: center;
 }
 
 .message-screen__contact-list-container{
@@ -136,10 +135,12 @@
   }
   
   .message-screen__messages-container{
+    width: 100%;
     flex-direction: column;
   }
 
   .message-screen__contact-list-container{
     display: none;
   }
+  
 }
