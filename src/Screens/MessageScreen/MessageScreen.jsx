@@ -21,6 +21,7 @@ function MessageScreen() {
                 <ContactList/>
             </div>
             <div className='message-screen__messages-container'>
+                <a href="/" class="mobile-goback"><i class="bi bi-arrow-left"></i></a>
                 {
                     isContactDetailLoading 
                     ? <div id="startup">
@@ -29,7 +30,7 @@ function MessageScreen() {
                         </svg>
                     </div>
                     : (
-                        contactDetailed 
+                        contactDetailed
                         ? <MessagesList 
                             messages={contactDetailed.messages} 
                         />

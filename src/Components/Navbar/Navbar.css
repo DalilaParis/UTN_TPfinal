@@ -60,3 +60,8 @@ header .nav-wsp_desktop a{
     color: white;
 }
 
+@media (max-width: 750px) {
+    .nav-wsp{
+        display: flex;
+    }
+}

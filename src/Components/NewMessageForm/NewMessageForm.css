@@ -19,6 +19,11 @@ textarea{
     border: none;
     align-items: center;
     color: white;
+    resize: none;
+}
+
+textarea:focus-visible{
+    outline: none;
 }
 
 label{

@@ -8,3 +8,9 @@
 .container-list{
     width: 100%;
 }
+
+@media (max-width: 750px){
+    .contact-list{
+        width: 100%;
+    }
+}

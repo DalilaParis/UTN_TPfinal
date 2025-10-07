@@ -1,10 +1,11 @@
+import "./MessageProp.css"
+
 function Message(propiedades){
     return(
-        <div>
-            <span>{propiedades.author}</span>
-            <p>{propiedades.content}</p>
-            <span>{propiedades.timestamp}</span>
-            <hr />
+        <div class="message">
+            <span class="message_author">{propiedades.author}</span>
+            <p class="message_content">{propiedades.content}</p>
+            <span class="message_timestamp">{propiedades.timestamp}</span>
         </div>
     )
 }
